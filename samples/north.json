@@ -1,0 +1,15 @@
+{
+  "batch": "night-01",
+  "station": "north",
+  "terminals": ["A", "B", "C"],
+  "tables": {
+    "initial": {
+      "junctions": ["junction-n17"],
+      "wires": [["n-arm-a", "A", "junction-n17"], ["n-arm-b", "B", "junction-n17"], ["n-arm-c", "C", "junction-n17"]]
+    },
+    "corrected": {
+      "junctions": [],
+      "wires": [["n-chain-ab", "A", "B"], ["n-chain-bc", "B", "C"]]
+    }
+  }
+}

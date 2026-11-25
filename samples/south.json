@@ -1,0 +1,8 @@
+{
+  "batch": "night-01",
+  "station": "south",
+  "terminals": ["A", "B", "C"],
+  "tables": {
+    "initial": {"junctions": [], "wires": []}
+  }
+}

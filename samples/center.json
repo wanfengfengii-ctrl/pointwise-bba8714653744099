@@ -1,0 +1,9 @@
+{
+  "batch": "night-01",
+  "stations": {"north": ["A", "B", "C"], "south": ["A", "B", "C"]},
+  "links": [
+    {"id": "p", "a": ["north", "A"], "b": ["south", "B"]},
+    {"id": "q", "a": ["north", "B"], "b": ["south", "C"]}
+  ],
+  "selected": ["p", "q"]
+}
